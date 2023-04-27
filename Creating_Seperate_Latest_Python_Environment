@@ -1,0 +1,22 @@
+
+
+This feature can be installed for Python3 like so:
+
+sudo apt install python3-venv
+To make a Python3.9 virtual environment, you would first create a directory and cd to it like so:
+
+mkdir my_env && cd my_env
+Then, create a new Python3.9 virtual environment inside the directory like so:
+
+python3.9 -m venv env
+To use this environment, activate it like so:
+
+source env/bin/activate
+Your shell prompt will show (env) like so:
+
+(env) $
+During this, python3 -V will report Python 3.9 and commands, module installs or modifications will be contained locally in this virtual environment.
+
+When you are done, deactivate this Python3.9 virtual environment like so:
+
+deactivate
