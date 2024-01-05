@@ -1,0 +1,68 @@
+#AWS LAMBDA
+pip install python-dotenv -t dotenv/python
+cd dotenv
+#Create a ZIP FOR LAMBDA
+zip -r dotenv.zip python
+
+#Start Docker:
+sudo /etc/init.d/docker start
+Running Docker Compose
+docker-compose up -d
+
+#Installing Packages
+python -m pip install packagename  --user
+
+#Upgrading LINUX Ubuntu:
+sudo apt-get upgrade
+python3 --version
+pip3 --version
+
+sudo apt update
+
+sudo apt install python3-dev python3-pip
+
+#Python Environment 
+python3 -m venv ./venv
+source ./venv/bin/activate
+pip3 freeze > requirements.txt
+
+#Runnning Flask
+flask --app main.py --debug run --port 8080
+
+
+# Start XRDP server
+sudo /etc/init.d/xrdp start
+
+
+pipenv shell.
+source ~/.bash_profile
+
+
+#Google Cloud
+Stream logs
+gcloud projects list
+gcloud config set project 
+gcloud app logs tail -s default
+gcloud app deploy
+
+
+This feature can be installed for Python3 like so: Install sudo apt install python3-venv
+
+To make a Python3.9 virtual environment, you would first create a directory and cd to it like so:
+
+mkdir my_env && cd my_env
+Then, create a new Python3.9 virtual environment inside the directory like so:
+
+python3.10 -m venv env
+To use this environment, activate it like so:
+
+source env/bin/activate
+Your shell prompt will show (env) like so:
+
+pip3 install --upgrade pip setuptools
+
+pip3 install wheel
+
+pip3 install python-dotenv
+
+(env) $ Activated with Python3 version you need.
